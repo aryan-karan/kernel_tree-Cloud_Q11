@@ -29,6 +29,12 @@ extern LCM_DRIVER hct_rm68200_dsi_vdo_hd_auo;
 extern LCM_DRIVER hct_nt35521_dsi_vdo_hd_boe;
 extern LCM_DRIVER hct_otm1284a_dsi_vdo_hd_boe;
 extern LCM_DRIVER nt35521_dsi_6735_H;
+//LCM Drivers For Walton Primo GH6
+extern LCM_DRIVER ili9881c_hd_dsi_vdo_3lanes_txd_lcm_drv;
+extern LCM_DRIVER ili9881c_hd_dsi_vdo_3lanes_zgd_lcm_drv;
+extern LCM_DRIVER ili9881c_hd_dsi_vdo_3lanes_dj_lcm_drv;
+extern LCM_DRIVER hx8394f_hd_dsi_vdo_3lanes_txd_lcm_drv;
+//End
 
 extern LCM_DRIVER hx8394d_dsi_vdo_hlt_hsd_hd720_lcm_drv;
 extern LCM_DRIVER nt35521_dsi_vdo_yushun_cmi_hd720_lcm_drv;
