@@ -19,7 +19,7 @@ export ARCH=arm ARCH_MTK_PLATFORM=mt6580
 #Or simply delete out directory to clean source
 
 #Defconfig for Infinix Hot 2
-make -C $PWD O=$PWD/out ARCH=arm x510_defconfig
+make -C $PWD O=$PWD/out ARCH=arm gh6_mt6580_defconfig
 
 #Edit the number according to the number of CPUs you have in your PC:
 make -j4 -C $PWD O=$PWD/out ARCH=arm
