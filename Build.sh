@@ -1,28 +1,13 @@
-#!/bin/bash
+#!/bin/bash 
 
-#Mysteryagr
-#Compile kernel with a build script to make things simple
 
-mkdir -p out
 
-#Change toolchain path before using build script!
-#export CROSS_COMPILE=~/toolchains/arm-eabi-linaro-4.7.3/bin/arm-eabi-
+export ARCH=arm 
 
-#Enable when needed:
-export USE_CCACHE=1
+export SUBARCH=arm 
 
-export ARCH=arm ARCH_MTK_PLATFORM=mt6580
+export CROSS_COMPILE=/home/abid/arm-eabi-4.8/bin/arm-eabi-
 
-#Enable only when needed:
-#make clean
-#make mrproper
-#Or simply delete out directory to clean source
+make O=out TARGET_ARCH=arm gh6_mt6580_defconfig
 
-#Defconfig for Infinix Hot 2
-#make -C $PWD O=$PWD/out ARCH=arm x510_defconfig
-
-#Defconfig for Infinix Hot 2
-make -C $PWD O=$PWD/out ARCH=arm gh6_mt6580_defconfig
-
-#Edit the number according to the number of CPUs you have in your PC:
-make -j4 -C $PWD O=$PWD/out ARCH=arm
+make O=out TARGET_ARCH=arm -j1 | tee build.log
