@@ -1,6 +1,7 @@
 # Nougat Kernel Source ported from Doogee X5 7.1.1 Kernel to Walton Primo GH6/GH6+
 
 This Source also works on:
+- Wiko Lenny 3
 -BQ Strike 5020
 -Cloudfone Thrill HD
 -QMobile i6 Metal HD
