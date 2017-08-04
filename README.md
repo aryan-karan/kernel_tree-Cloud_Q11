@@ -4,7 +4,7 @@ This Source also may work on,
 -BQ Strike 5020
 -Cloudfone Thrill HD
 -BQ Strike 5020
--QMobile i6 
+-QMobile i6 Metal HD
 
 Defcofig : gh6_mt6580_defconfig
 build script : Build.sh
