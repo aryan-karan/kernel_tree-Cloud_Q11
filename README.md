@@ -1,4 +1,4 @@
-# Nougat Kernel Source ported from Doogee X5 7.1.1 Kernel to Walton Primo GH6/GH6+
+# Nougat Kernel Source ported from Walton Primo Gh6 7.1.1 Kernel to Intex Cloud Q11
 
 This Source also works on:<br />
 - Wiko Lenny 3<br />
@@ -8,7 +8,7 @@ This Source also works on:<br />
 
 # Status
 
-Touch not working. Reboots after some time.
+Unknown : Touch not working. Reboots after some time.
 
 # Info
 Defcofig : gh6_mt6580_defconfig<br />
