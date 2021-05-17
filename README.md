@@ -4,7 +4,6 @@ This Source also works on:<br />
 - Wiko Lenny 3<br />
 - BQ Strike 5020<br />
 - Cloudfone Thrill HD<br />
-- QMobile i6 Metal HD<br />
 
 # Status
 
