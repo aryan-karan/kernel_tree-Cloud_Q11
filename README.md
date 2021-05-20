@@ -1,5 +1,9 @@
 # Nougat Kernel Source ported from Walton Primo Gh6 7.1.1 Kernel to Intex Cloud Q11
 
+<b> Clone Command</b>:
+     
+     git clone https://github.com/aryankaran/kernel_tree-Cloud_Q11.git -b N-3.18 intex_kernel && cd intex_kernel
+
 This Source also works on:<br />
 - Wiko Lenny 3<br />
 - BQ Strike 5020<br />
